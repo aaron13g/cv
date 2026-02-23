@@ -122,7 +122,19 @@ Selected Positions {data-icon=suitcase}
 position_data %>% print_section('positions')
 ```
 
+Selected Professional Projects {data-icon=chart-bar}
+--------------------------------------------------------------------------------
 
+```{r}
+position_data %>% print_section('projects')
+```
+
+Academic Projects {data-icon=laptop-code}
+--------------------------------------------------------------------------------
+
+```{r}
+position_data %>% print_section('academic_projects')
+```
 
 
 ```{r}
